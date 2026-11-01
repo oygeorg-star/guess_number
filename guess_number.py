@@ -6,7 +6,7 @@ print('Угадайте число от 1 до 100')
 while True:
     guess = int(input('Введите число: '))
 
-    elif guess < number:
+    if guess < number:
         print('Ваше число меньше того, что загадано.')
 
     elif guess > number:
